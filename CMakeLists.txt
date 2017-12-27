@@ -12,5 +12,6 @@ target_sources(gl-breakout PRIVATE
         src/main.cpp)
 target_include_directories(gl-breakout PRIVATE
         include
-        libs/alexlib/include)
+        libs/alexlib/include
+        libs/alexlib/external/glm)
 target_link_libraries(gl-breakout PRIVATE alexlib)
